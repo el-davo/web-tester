@@ -8,6 +8,7 @@
   "scripts": {
     "start": "web-ext run --verbose --source-dir dist",
     "start:chrome": "web-ext run -t chromium --source-dir dist",
+    "start:opera": "web-ext run -t chromium --chromium-binary /usr/bin/opera --source-dir dist",
     "build": "tsc"
   },
   "devDependencies": {
