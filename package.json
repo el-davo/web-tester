@@ -1,0 +1,17 @@
+{
+  "name": "web-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/el-davo/web-tester.git",
+  "author": "el-davo <david.ahrn26@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "web-ext run --verbose --source-dir dist",
+    "start:chrome": "web-ext run -t chromium --source-dir dist",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4",
+    "web-ext": "^4.0.0"
+  }
+}

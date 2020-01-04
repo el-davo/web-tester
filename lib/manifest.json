@@ -1,0 +1,18 @@
+{
+  "description": "test",
+  "manifest_version": 2,
+  "name": "test",
+  "version": "1.0",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.mozilla.org/*"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
